@@ -16,5 +16,6 @@ public class ContaBanco {
         double saldo = scanner.nextDouble();
         scanner.nextLine(); // consome o restante da linha
         System.out.println("Olá " + nomeCompleto + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + conta + " e seu saldo " + saldo + " já está disponível para saque");
+
     }
 }
